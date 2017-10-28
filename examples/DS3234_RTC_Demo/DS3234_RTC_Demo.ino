@@ -122,7 +122,7 @@ void printTime()
 
   // Few options for printing the day, pick one:
   Serial.print(rtc.dayStr()); // Print day string
-  //Serial.print(rtc.dayC()); // Print day character
+  //Serial.print(rtc.dayChar()); // Print day character
   //Serial.print(rtc.day()); // Print day integer (1-7, Sun-Sat)
   Serial.print(" - ");
 #ifdef PRINT_USA_DATE
